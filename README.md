@@ -15,6 +15,7 @@ I created this course as part of a series of small tutorials taught in my workpl
     `runExample('factory')`
 
 Valid example names (to be passed as a string to the runExample() function) are:
+
 | Name | example |
 | :------- | :---- |
 |`factory` | runExample('factory') |
