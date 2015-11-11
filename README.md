@@ -1,34 +1,35 @@
-# Basic commands Command prompt (Mac OS)
+# JS Design patterns into practice
 
-> Some basic commands for the Terminal
+> Some common Javascript patterns
 
-### SHORTCUTS
 
-# js-design-patterns-into-practice
-code example of each of the design patterns discussed in the course "Common Javascript patterns"
+I created this course as part of a series of small tutorials taught in my workplace. The repository contains an code example of each of the design patterns discussed in the course "Common Javascript patterns" 
 
-I created this course as part of a series of small tutorials taught in my workplace.
-
-This repository contains an code example of each of the design patterns discussed in the course "Common Javascript patterns" 
-
-## Dev
-
-This repository contains an example of each of the design patterns discussed in the course.
+## Instructions
 
 1. Clone repository to your machine `git clone https://github.com/jasancheg/js-design-patterns-into-practice.git`
-2. Run `bower install`
-3. Open index.html in your browser and open the browser's console
-4. Use the global runExample() method to run one of the examples
+2. Run `cd js-design-patterns-into-practice`
+3. Run `bower install`
+4. Open index.html in your browser and open the browser's console
+5. Use the global runExample() method to run one of the examples
     `runExample('factory')`
 
 Valid example names (to be passed as a string to the runExample() function) are:
+| Name | example |
+| :------- | :---- |
+|`factory` | runExample('factory') |
+|`iterator`| runExample('iterator') |
+|`pubsub` | runExample('pubsub') |
+| `facade`| runExample('facade') |
+|`strategy` | runExample('strategy') |
+| `decorator`| runExample('decorator') |
+|`observer` | runExample('observer') |
+| `adapter` | runExample('adapter') |
+|`cor` | runExample('cor') |
+| `composite` | runExample('composite') |
+|`mediator` | runExample('mediator') |
+| `proxy` | runExample('proxy') |
 
-|* `factory`|* `iterator`|
-|* `pubsub`|* `facade`|
-|* `strategy`|* `decorator`|
-|* `observer`|* `adapter`|
-|* `cor`|* `composite`|
-|* `mediator`|* `proxy`|
 
 
 ## License
