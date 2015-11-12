@@ -1,0 +1,20 @@
+{
+  "name": "jsdesignpatterns",
+  "version": "0.0.1",
+  "description": "Code examples for Design patterns into Practice course",
+  "main": "index.js",
+  "author": {
+    "name": "Jose Antonio Sanchez",
+    "email": "jasancheg@gmail.com",
+    "url": "https://github.com/jasancheg/js-design-patterns-into-practice"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "design",
+    "patterns"
+  ],
+  "license": "MIT"
+}

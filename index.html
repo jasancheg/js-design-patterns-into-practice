@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Design Patterns</title>
+    <style type="text/css">
+        html, body {
+            background: #fcfcfc;
+            margin: 0;
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        }
+        header {
+            font-weight: bold;
+            overflow: hidden;
+            background: #eee;
+            margin: 60px auto 20px auto;
+            width: 800px;
+        }
+        header img {
+            padding: 30px 60px;
+            float: left;
+        }
+        hgroup {
+            float: left;
+        }
+        h1 {
+            margin-top: 45px;
+            margin-bottom: 0;
+        }
+        h2 {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .body-content {
+            background: #eee;
+            margin: 0 auto 20px auto;
+            padding: 10px 60px;
+            width: 680px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/smile_128x128.png" />
+        <hgroup>
+            <h1>JavaScript Design Patterns</h1>
+            <h2>by Jose Antonio Sanchez</h2>
+        </hgroup>
+    </header>
+    <div class="body-content">
+        <p>
+            <li>Open the browser's console</li>
+            <li>Use the global runExample() method to run one of the examples <br>
+            `runExample('factory')`
+            </li>
+        </p>
+    </div>
+    <div class="body-content">
+        <table width="680">
+            <tr>
+                <td>factory</td>
+                <td>iterator</td>
+                <td>pubsub</td>
+                <td>facade</td>
+            </tr>
+            <tr>
+                <td>strategy</td>
+                <td>decorator</td>
+                <td>observer</td>
+                <td>adapter</td>
+            </tr>
+            <tr>
+                <td>cor</td>
+                <td>composite</td>
+                <td>mediator</td>
+                <td>proxy</td>
+            </tr>
+        </table>
+    </div>
+    <script data-main="js/main" src="bower_components/requirejs/require.js"></script>
+</body>
+</html>

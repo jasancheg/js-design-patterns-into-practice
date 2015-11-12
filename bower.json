@@ -1,0 +1,22 @@
+{
+  "name": "jsdesignpatterns",
+  "version": "0.0.1",
+  "main": "js/main.js",
+  "authors": [
+    "Jose Antonio Sanchez <jasancheg@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.20"
+  },
+  "license": "MIT"
+}

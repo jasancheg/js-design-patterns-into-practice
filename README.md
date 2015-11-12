@@ -33,6 +33,8 @@ Valid example names (to be passed as a string to the runExample() function) are:
 
 
 
+![](https://raw.githubusercontent.com/jasancheg//js-design-patterns-into-practice/img/smile_128x128.png)
+
 ## License
 
 MIT © [Jose Antonio Sanchez](https://github.com/jasancheg)
