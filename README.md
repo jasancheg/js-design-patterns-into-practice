@@ -7,24 +7,23 @@ I created this course as part of a series of small tutorials taught in my workpl
 
 ## JS Patterns
 
-1. Creational Design Patterns
+* Creational Design Patterns
+1. The Factory Pattern
 
-1.1The Factory Pattern
-2. Structural Patterns
-2.1 The Adapter Pattern
-2.2 The Proxy Pattern
-2.3 The Facade Pattern
-2.4 The Decorator Pattern
-2.4 The Composite Pattern
+* Structural Patterns
+1. The Adapter Pattern
+2. The Proxy Pattern
+3. The Facade Pattern
+4. The Decorator Pattern
+5. The Composite Pattern
 
-3. Behavioural Patterns
-
-3.1 The Chain of Responsibility Pattern
-3.2 The Mediator Pattern
-3.3 The Iterator Pattern
-3.4 The Publisher/Subscriber Pattern
-3.5 The Strategy Pattern
-3.6 The Observer Pattern
+* Behavioural Patterns
+1. The Chain of Responsibility Pattern
+2. The Mediator Pattern
+3. The Iterator Pattern
+4. The Publisher/Subscriber Pattern
+5. The Strategy Pattern
+6. The Observer Pattern
 
 ## Instructions
 
