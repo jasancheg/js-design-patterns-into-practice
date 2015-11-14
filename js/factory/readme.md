@@ -2,7 +2,7 @@
 
 > Factory pattern
 
-The Factory pattern, also known as the Builder pattern, This pattern allows us to wrap object creation code in a simple function so what it meas is that we don't need to manually instantiate new objects.
+The Factory pattern, also known as the Builder pattern, This pattern allows us to wrap object creation code in a simple function. So what it means is that we don't need to manually instantiate new objects.
 
 **Features**
 
