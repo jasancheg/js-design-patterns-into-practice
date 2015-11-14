@@ -2,13 +2,14 @@
  * Main module
  */
 require(
-    ['factory/init', 'pubsub/init'],
-    function (factory, pubsub) {
+    ['factory/init', 'pubsub/init', 'strategy/init'],
+    function (factory, pubsub, strategy) {
         'use strict';
 
         var examplesList = {
             factory: factory,
-            pubsub: pubsub
+            pubsub: pubsub,
+            strategy: strategy
         };
 
         window.runExample = function (name) {
