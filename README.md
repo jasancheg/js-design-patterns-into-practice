@@ -32,6 +32,12 @@ Valid example names (to be passed as a string to the runExample() function) are:
 | `proxy` | runExample('proxy') |
 
 
+## How to use
+
+*. Use the global runExample() method to run one of the examples
+    `runExample('factory')`
+
+![](https://raw.githubusercontent.com/jasancheg/js-design-patterns-into-practice/master/img/2015-11-14_1247.png)
 
 
 ![](https://raw.githubusercontent.com/jasancheg/js-design-patterns-into-practice/master/img/smile_128x128.png)
