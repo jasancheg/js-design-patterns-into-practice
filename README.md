@@ -8,14 +8,19 @@ I created this course as part of a series of small tutorials taught in my workpl
 ## JS Patterns
 
 1. Creational Design Patterns
+
 * The Factory Pattern
+
 2. Structural Patterns
+
 * The Facade Pattern
 * The Decorator Pattern
 * The Adapter Pattern
 * The Composite Pattern
 * The Proxy Pattern
+
 3. Behavioural Patterns
+
 * The Publisher/Subscriber Pattern
 * The Strategy Pattern
 * The Observer Pattern
