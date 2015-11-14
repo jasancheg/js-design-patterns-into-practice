@@ -4,19 +4,19 @@ define(function (require) {
     return {
         init: function () {
 
-            var myVideo, 
+            var myVideo,
                 myImage,
-                mediaFactory = require('factory/mediaFactory');
+                MediaFactory = require('factory/mediaFactory');
 
-            myVideo = mediaFactory.createMedia('Video', {
+            myVideo = MediaFactory.createMedia('Video', {
                 length: 4.8,
                 name: 'My video'
             });
 
-            myImage = mediaFactory.createMedia('Image', {
+            myImage = MediaFactory.createMedia('Image', {
                 width: 250,
                 height: 250,
-                name: 'My image'
+                name: 'My Image'
             });
 
             console.log(myVideo);
