@@ -5,6 +5,25 @@
 
 I created this course as part of a series of small tutorials taught in my workplace. The repository contains an code example of each of the design patterns discussed in the course "Common Javascript patterns" 
 
+## JS Patterns
+
+1. Creational Design Patterns
+* The Factory Pattern
+2. Structural Patterns
+* The Facade Pattern
+* The Decorator Pattern
+* The Adapter Pattern
+* The Composite Pattern
+* The Proxy Pattern
+3. Behavioural Patterns
+* The Publisher/Subscriber Pattern
+* The Strategy Pattern
+* The Observer Pattern
+* The Chain of Responsibility Pattern
+* The Mediator Pattern
+* The Iterator Pattern
+
+
 ## Instructions
 
 1. Clone repository to your machine `git clone https://github.com/jasancheg/js-design-patterns-into-practice.git`
