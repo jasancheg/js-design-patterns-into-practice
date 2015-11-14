@@ -13,21 +13,20 @@ I created this course as part of a series of small tutorials taught in my workpl
 
 2. Structural Patterns
 
+* The Adapter Pattern
+* The Proxy Pattern
 * The Facade Pattern
 * The Decorator Pattern
-* The Adapter Pattern
 * The Composite Pattern
-* The Proxy Pattern
 
 3. Behavioural Patterns
 
-* The Publisher/Subscriber Pattern
-* The Strategy Pattern
-* The Observer Pattern
 * The Chain of Responsibility Pattern
 * The Mediator Pattern
 * The Iterator Pattern
-
+* The Publisher/Subscriber Pattern
+* The Strategy Pattern
+* The Observer Pattern
 
 ## Instructions
 
