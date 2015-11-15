@@ -5,6 +5,10 @@
 
 I created this course as part of a series of small tutorials taught in my workplace. The repository contains an code example of each of the design patterns discussed in the course "Common Javascript patterns" 
 
+**Features**
+
+* AMD (RequireJS)
+
 ## JS Patterns
 
 **Creational Design Patterns**
