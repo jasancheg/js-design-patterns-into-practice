@@ -17,12 +17,12 @@ define(function (require) {
 
     /**
      * [handleSms description]
-     * @param  {[string]} sms [description]
+     * @param  {[object]} sms [description]
      */
     function handleSms(sms) {
         console.log('SMS sent to number', sms.number, 'message: ', sms.message);
     }
 
-    // return a instance of smsHandler
+    // return an instance
     return smsHandler;
 });

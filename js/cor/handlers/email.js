@@ -16,12 +16,12 @@ define(function (require) {
 
     /**
      * [handleEmail description]
-     * @param  {[string]} email [description]
+     * @param  {[object]} email [description]
      */
     function handleEmail(email) {
         console.log('Email sent to', email.recipient, 'message: ', email.message);
     }
 
-    // return a instance of emailHandler
+    // return an instance
     return emailHandler;
 });
