@@ -15,5 +15,6 @@ When an application grows, it can be bad news for maintainability if every modul
 
 **Summary**
 
-* Looked at the Mediator pattern
+* Great for decoupling
+* Use to avoid a tangled mess of dependencies
 
