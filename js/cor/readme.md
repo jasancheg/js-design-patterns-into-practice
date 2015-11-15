@@ -19,7 +19,7 @@ This pattern features a request sender in a series of one or more handlers that 
 
 **Summary**
 
-* Similar to the pubSub pattern
-* Observe are coupled to the subject
-* some coupling is ok
-* Avoid unnecessary, unintentional or excessive coupling
+* Looked at the chain of responsibility pattern
+* Useful when we have a lots of objects that need to be handled differently
+* Great for loose coupling
+* Easy to extend
