@@ -2,8 +2,8 @@
  * Main module
  */
 require(
-    ['factory/init', 'pubsub/init', 'observer/init', 'strategy/init', 'cor/init'],
-    function (factory, pubsub, observer, strategy, cor) {
+    ['factory/init', 'pubsub/init', 'observer/init', 'strategy/init', 'cor/init', 'mediator/init'],
+    function (factory, pubsub, observer, strategy, cor, mediator) {
         'use strict';
 
         var examplesList = {
@@ -11,7 +11,8 @@ require(
             pubsub: pubsub,
             strategy: strategy,
             observer: observer,
-            cor: cor
+            cor: cor,
+            mediator: mediator
         };
 
         window.runExample = function (name) {
