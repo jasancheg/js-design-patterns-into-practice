@@ -17,7 +17,10 @@ require(
             if(!name){
                 console.group();
                 console.warn('you should provide a pattern name');
-                console.info('available pattern samples: ', ['factory', 'iterator', 'pubsub', 'facade', 'strategy', 'decorator', 'observer', 'adapter', 'cor', 'composite', 'mediator', 'proxy'])
+                console.info('available pattern samples:');
+                console.log('  Creational Design Patterns: ', ['factory']);
+                console.log('  Behavioural Patterns: ', ['pubsub','strategy', 'observer', 'cor', 'mediator', 'iterator']);
+                console.log('  Structural Patterns: ', ['facade', 'decorator', 'adapter', 'composite', 'proxy']);
                 console.groupEnd();
                 return;
             }

@@ -5,16 +5,17 @@
     <title>JavaScript Design Patterns</title>
     <style type="text/css">
         html, body {
-            background: #fcfcfc;
+            background: #fafafa;
             margin: 0;
             font-family: 'Helvetica Neue', Helvetica, sans-serif;
         }
         header {
             font-weight: bold;
             overflow: hidden;
-            background: #eee;
-            margin: 60px auto 20px auto;
+            background: #eeeeee;
+            margin: 40px auto 10px auto;
             width: 800px;
+            border-radius: 10px 10px 0 0;
         }
         header img {
             padding: 30px 60px;
@@ -31,12 +32,19 @@
             margin-top: 10px;
             font-size: 16px;
         }
+        ul {
+            padding-left: 20px;
+        }
         .body-content {
-            background: #eee;
-            margin: 0 auto 20px auto;
+            background: #e0e0e0;
+            margin: 0 auto 10px auto;
             padding: 10px 60px;
             width: 680px;
             font-size: 14px;
+        }
+        .body-content.last {
+            background: #bdbdbd;
+            border-radius: 0 0 10px 10px;
         }
     </style>
 </head>
@@ -49,14 +57,14 @@
         </hgroup>
     </header>
     <div class="body-content">
-        <p>
+        <ul>
             <li>Open the browser's console</li>
             <li>Use the global runExample() method to run one of the examples <br>
             `runExample('factory')`
             </li>
-        </p>
+        </ul>
     </div>
-    <div class="body-content">
+    <div class="body-content last">
         <table width="680">
             <tr>
                 <td>factory</td>
