@@ -9,7 +9,7 @@ define(function (require) {
      * create a new email handler by create an instanse of the base `Handler` class
      * @attribute 'email'      [handler type]
      * @attribute handleEmail  [current handler]
-     * @attribute null         [next handler in the chain]
+     * @attribute null         [there is not next handler in the chain]
      * @type {Handler}
      */
     emailHandler = new Handler('email', handleEmail, null);
