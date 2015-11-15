@@ -34,7 +34,7 @@ define(function () {
     /**
      * send message to all colleages
      * @param  {[object]} message [message to send]
-     * @param  {[object]} sender  [description]
+     * @param  {[object]} sender  [sender object]
      */
     Mediator.prototype.broadcast = function (message, sender) {
         this.colleagues.forEach(function (colleague) {
