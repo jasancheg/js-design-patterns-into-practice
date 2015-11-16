@@ -3,6 +3,8 @@ define(function () {
 
     // This module will return an API consisting of five methods 
     // that each process a different Javascript type
+    // this module doesn't depende on the facade
+    // it knows nothing about the facade
      return {
 
         /**
