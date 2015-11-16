@@ -21,7 +21,7 @@ define(function (require) {
             colleague2 = colleague.create('colleague2', mediator);
             colleague3 = colleague.create('colleague3', mediator);
 
-            // send som messages
+            // send some messages
             colleague1.sendMessage('Hey there', 'colleague2');
             colleague2.sendMessage('Hi colleague1', 'colleague1');
             colleague3.sendMessage('Hey guys!');
