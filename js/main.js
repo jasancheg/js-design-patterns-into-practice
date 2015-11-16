@@ -2,7 +2,7 @@
  * Main module
  */
 require(
-    ['factory/init', 'pubsub/init', 'observer/init', 'strategy/init', 'cor/init', 'mediator/init'
+    ['factory/init', 'pubsub/init', 'observer/init', 'strategy/init', 'cor/init', 'mediator/init',
     'iterator/init', 'facade/init'],
     function (factory, pubsub, observer, strategy, cor, mediator, iterator, facade) {
         'use strict';
