@@ -3,7 +3,7 @@
  */
 require(
     ['factory/init', 'pubsub/init', 'observer/init', 'strategy/init', 'cor/init', 'mediator/init'
-    'iterator/init'],
+    'iterator/init'], 
     function (factory, pubsub, observer, strategy, cor, mediator, iterator) {
         'use strict';
 
@@ -14,7 +14,8 @@ require(
             strategy: strategy,
             observer: observer,
             cor: cor,
-            mediator: mediator
+            mediator: mediator,
+            iterator: iterator
         };
 
         /**
