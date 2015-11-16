@@ -8,6 +8,9 @@ There are a number of array methods tha we can use to iterate arrays and we have
 
 In some languages, an iterator will provide other methods like hasNext, isDone, first, and reset. Javascript has iterators as a core part of the language in ES7, so iterators ara coming to a browser near you at some point in the future. Until is widely implemented, however, we'll have to ceate our own.
 
+It's less common in JavaScript than some other patterns but it can be useful and it's pretty easy to put together.
+We don't need to know beforehand whether the collection is an array, an object, a string, or number. We just use it the iterator's API and let the iterator take car of it.
+
 **Features**
 
 * JavaScript has iteration built into the language
@@ -20,4 +23,5 @@ In some languages, an iterator will provide other methods like hasNext, isDone, 
 
 **Summary**
 
-* 
+* Not common in JavaScript (yet)
+* Decouples the processing of an object from the object being processed
