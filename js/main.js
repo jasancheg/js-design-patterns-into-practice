@@ -3,8 +3,8 @@
  */
 require(
     ['factory/init', 'pubsub/init', 'observer/init', 'strategy/init', 'cor/init', 'mediator/init'
-    'iterator/init'], 
-    function (factory, pubsub, observer, strategy, cor, mediator, iterator) {
+    'iterator/init', 'facade/init'],
+    function (factory, pubsub, observer, strategy, cor, mediator, iterator, facade) {
         'use strict';
 
         // allow to run specific examples by name
@@ -15,11 +15,12 @@ require(
             observer: observer,
             cor: cor,
             mediator: mediator,
-            iterator: iterator
+            iterator: iterator,
+            facade: facade
         };
 
         /**
-         * [runExample description]
+         * method to access the examples
          * @param  {[string]} name [Pattern name]
          * @return {[false]}       [if no name is provided or bad name stops the excecution]
          */
