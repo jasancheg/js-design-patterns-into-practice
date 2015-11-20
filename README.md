@@ -71,8 +71,8 @@ Valid example names (to be passed as a string to the runExample() function) are:
 
 ## References
 
-[JavaScript Design patterns by Addy Osmani ](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-[Dan Wellman Repo](https://github.com/danwellman)
+* [JavaScript Design patterns by Addy Osmani ](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+* [Dan Wellman Repo](https://github.com/danwellman)
 
 ## License
 
