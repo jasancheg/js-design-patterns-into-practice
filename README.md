@@ -2,6 +2,9 @@
 
 > Some common Javascript patterns
 
+Design patterns are reusable solutions to commonly occurring problems in software design. They are both exciting and a fascinating topic to explore in any programming language. Design patterns also provide us a common vocabulary to describe solutions. This can be significantly simpler than describing syntax and semantics when we're attempting to convey a way of structuring a solution in code form to others.
+
+A design pattern is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations. Patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
 
 I created this course as part of a series of small tutorials taught in my workplace. The repository contains an code example of each of the design patterns discussed in the course "Common Javascript patterns" 
 
@@ -65,6 +68,11 @@ Valid example names (to be passed as a string to the runExample() function) are:
     `runExample('factory')`
 
 ![](https://raw.githubusercontent.com/jasancheg/js-design-patterns-into-practice/master/img/2015-11-14_1247.png)
+
+## References
+
+[JavaScript Design patterns by Addy Osmani ](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+[Dan Wellman Repo](https://github.com/danwellman)
 
 ## License
 
