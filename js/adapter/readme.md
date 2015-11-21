@@ -20,4 +20,5 @@ We have two interface, so we can refactor everything to use the NewInterface or,
 
 **Summary**
 
-* 
+* Used to adapt one interface to another
+* Can prevent changes in one place affecting other code

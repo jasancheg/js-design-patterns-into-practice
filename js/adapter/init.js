@@ -7,7 +7,7 @@ define(function (require) {
          */
         init: function () {
 
-            // load modules
+            // load the adapter module
             var oldInterfaceAdapter = require('adapter/oldInterfaceAdapter');
 
             // just invoke doSomething ...
