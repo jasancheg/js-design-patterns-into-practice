@@ -15,7 +15,8 @@ This pattern is used to convert one interface into another. In JavaScript an int
 
 **About the example logic**
 
-In the example we are using the module just in one place, but in reality we could be using this guy all over our code base and might even be a module provided by a third party, or vendor, or something that we can't or don't want to update derectly.
+In the example we are using the module just in one place, but in reality we could be using this guy all over our code base and might even be a module provided by a third party, or vendor, or something that we can't or don't want to update directly.
+We have two interface, so we can refactor everything to use the NewInterface or, if that's a pretty big task, we can create an adapter instead, so that we only have to make minimal changes to our existing code. The adapter is almost the only new code that we need to write.
 
 **Summary**
 
