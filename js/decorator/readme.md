@@ -12,6 +12,13 @@ This is a structural pattern that is used to add new functionality to an existin
 * Add new functionality to existing objects
 * Used in Javascript as alternative to subclassing
 
+** The example logic**
+
+* We have a basic user class which represents a member of staff at an organization
+* All users have read access to public material, but only executive users have access to confidential material.
+* Admins also nedd right access to the material
+
+Even with just these few requeriments if we down the subclassing roots, we'll need quite a few different subclasses. And each time a new requirement is added we'll need to add more. So for the example let's use decorators instead.
 
 **Summary**
 
