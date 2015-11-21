@@ -3,8 +3,8 @@
  */
 require(
     ['factory/init', 'pubsub/init', 'observer/init', 'strategy/init', 'cor/init', 'mediator/init',
-    'iterator/init', 'facade/init', 'decorator/init'],
-    function (factory, pubsub, observer, strategy, cor, mediator, iterator, facade, decorator) {
+    'iterator/init', 'facade/init', 'decorator/init', 'adapter/init'],
+    function (factory, pubsub, observer, strategy, cor, mediator, iterator, facade, decorator, adapter) {
         'use strict';
 
         // allow to run specific examples by name
@@ -17,7 +17,8 @@ require(
             mediator: mediator,
             iterator: iterator,
             facade: facade,
-            decorator: decorator
+            decorator: decorator,
+            adapter: adapter
         };
 
         /**
