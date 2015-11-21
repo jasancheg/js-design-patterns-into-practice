@@ -21,11 +21,10 @@ We might need to use this object somtimes in our application, but it's better fo
 
 In this case, we can have a proxy that receives the request for the object and in this case we know that we definitely need to use the object so we can have the proxy initialize it and proxy requests through to it. This kind of proxy can be considered a just in time proxy.
 
-Let's base the example:
-
-
-
 
 **Summary**
 
-* 
+* Use it to control access to another object
+* The proxy exposes the same interface as the original object
+* Sits between clients and the original object
+ 

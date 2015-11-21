@@ -48,6 +48,10 @@ define(function (require) {
     }
 
     return {
+        /**
+         * return an instance of the slow object
+         * @return {[SlowObjectProxy]} [instance]
+         */
         init: function () {
             return new SlowObjectProxy();
         }
