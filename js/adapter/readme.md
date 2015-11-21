@@ -13,6 +13,9 @@ This pattern is used to convert one interface into another. In JavaScript an int
 * Used to avoid extensive refactoring when a dependency changes
 * Use only when necessary
 
+**About the example logic**
+
+In the example we are using the module just in one place, but in reality we could be using this guy all over our code base and might even be a module provided by a third party, or vendor, or something that we can't or don't want to update derectly.
 
 **Summary**
 
