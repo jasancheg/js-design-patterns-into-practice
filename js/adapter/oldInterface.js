@@ -11,6 +11,6 @@ define(function () {
         console.log('doing the old thing');
     };
 
-    // return an instance
+    // return an instance 
     return new OldInterface();
 });
