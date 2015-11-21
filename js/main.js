@@ -2,25 +2,28 @@
  * Main module
  */
 require(
-    ['factory/init', 'pubsub/init', 'observer/init', 'strategy/init', 'cor/init', 'mediator/init',
-    'iterator/init', 'facade/init', 'decorator/init', 'adapter/init', 'composite/init', 'proxy/init'],
-    function (factory, pubsub, observer, strategy, cor,mediator, iterator, facade, decorator, adapter, composite, proxy) {
+    [
+    'strategy/init', 'facade/init', 'adapter/init', 'decorator/init',
+    'observer/init', 'pubsub/init', 'factory/init', 'composite/init',
+    'iterator/init', 'proxy/init', 'mediator/init', 'cor/init'
+    ],
+    function (strategy, facade, adapter, decorator, observer, pubsub, factory, composite, iterator, proxy, mediator, cor) {
         'use strict';
 
         // allow to run specific examples by name
         var examplesList = {
-            factory: factory,
+            cor: cor,
+            proxy: proxy,
             pubsub: pubsub,
+            facade: facade,
+            adapter: adapter,
+            factory: factory,
             strategy: strategy,
             observer: observer,
-            cor: cor,
             mediator: mediator,
             iterator: iterator,
-            facade: facade,
             decorator: decorator,
-            adapter: adapter,
-            composite: composite,
-            proxy: proxy
+            composite:  composite
         };
 
         /**
