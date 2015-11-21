@@ -22,4 +22,5 @@ Even with just these few requeriments if we down the subclassing roots, we'll ne
 
 **Summary**
 
-* 
+* Used to add new behaviour to objects
+* Minimise the number of subclasses you need to maintain
