@@ -24,4 +24,4 @@ Compositions are use to create nested structures of nodes, where a node may be a
 
 **Summary**
 
-* 
+* Allows single objects or collections of objects to be used indiscriminantly
